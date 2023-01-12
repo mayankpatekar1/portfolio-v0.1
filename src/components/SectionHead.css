@@ -1,0 +1,13 @@
+.section-head{
+    font-size: 2.75rem;
+    font-weight: 700;
+    padding-left: 10px;
+    
+}
+.section-head-underline{
+    display: block;
+    width: 20%;
+    height: 6px;
+    background-color: #27A7CF;
+
+}

@@ -1,0 +1,25 @@
+
+.skill-div{
+    display:flex;
+    overflow:auto;
+    /* flex-wrap: nowrap; */
+    /* -webkit-overflow-scrolling: touch; */
+}
+
+.skill-box::-webkit-scrollbar{
+    display: none;
+}
+.skill-box{
+    /* flex: 0 0 auto; */
+    display : inline-block;
+    margin: 30px;
+}
+.skill-box > img{
+    width: 100%;
+}
+
+@media only screen and (max-width: 1020px){
+    .skill-box > img{
+        width: 200px;
+    }   
+}

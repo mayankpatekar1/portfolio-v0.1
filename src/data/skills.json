@@ -1,0 +1,30 @@
+{"skills" : [
+    
+    {
+        "id":1,
+        "url":"http://localhost:3000/images/html.png",
+        "text":"HTML"
+    },
+    {
+        "id":2,
+        "url":"http://localhost:3000/images/css.png",
+        "text":"CSS"
+    },
+    {
+        "id":3,
+        "url":"http://localhost:3000/images/JavaScript.png",
+        "text":"JAVASCRIPT"
+    },
+    {
+        "id":4,
+        "url":"http://localhost:3000/images/react.png",
+        "text":"REACT JS"
+    },{
+        "id":5,
+        "url":"http://localhost:3000/images/node.png",
+        "text":"NODE JS"
+    }
+
+]
+
+}

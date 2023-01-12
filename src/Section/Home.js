@@ -1,10 +1,12 @@
 import React from 'react';
-import NavBar from './NavBar';
+import Hero from '../components/Hero';
+import NavBar from '../components/NavBar';
 
 export default function Home(){
     return(
         <>
             <NavBar />
+            <Hero />
             
         </>
     )

@@ -1,0 +1,49 @@
+.row{
+    display: flex;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.col{
+    padding: 20px;
+    /* display: inline-block; */
+}
+
+.project-head{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.project-desc{
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.project-btn-1{
+    padding: 5px 10px;
+    font-size: 1.75rem;
+    margin: 10px 10px 10px 0;
+    border: 3px solid black;
+    background: transparent;
+}
+
+.project-btn-2{
+    padding: 5px 10px;
+    font-size: 1.75rem;
+    margin: 10px 10px 10px 0;
+    color: white;
+    background: #27A7CF;
+    width: 150px;
+    border: 3px solid #27A7CF;
+}
+
+
+@media only screen and (max-width: 1020px){
+ .row{
+    flex-direction: column;
+ } 
+ .col img{
+    width:100%;
+ }
+}
